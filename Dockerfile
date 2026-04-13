@@ -1,2 +1,2 @@
-FROM aarao2000/repo_caixa:aula2
+FROM aarao2000/aula4:app1
 COPY temp.txt /
