@@ -22,9 +22,9 @@ jobs:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-    - name: Build and Push
+    - name: Build e Push
       uses: docker/build-push-actions@v5
       with:
         context: .
         push: true
-        tags: aarao2000/aula4:aula7.2
+        tags: aarao2000/repo_caixa:aula7.2
