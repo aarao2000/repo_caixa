@@ -25,4 +25,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: aarao2000/repo_caixa:latest
+        tags: aarao2000/aula4:app1
